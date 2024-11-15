@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Portafolio</title>
+    <link rel="stylesheet" href="estilos.css">
+    </head>
+        <body>
+            
+        <!--MENU ENCABEZADO-->
+    <div class="contenedor-header">
+        <header>
+            <img class="logo" src="img/Logo web Andres.svg" alt="">
+            <!--<div class="logo">
+                <a href="#"></a>
+            </div>-->
+    <nav id="nav">
+        <ul>
+            <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+            <li><a href="#sobremi" onclick="seleccionar()">SOBRE MÍ</a></li>
+            <li><a href="#skills" onclick="seleccionar()">HABILIDADES</a></li>
+            <li><a href="#curriculum" onclick="seleccionar()">CURRICULUM</a></li>
+            <li><a href="#portafolio" onclick="seleccionar()">PORTAFOLIO</a></li>
+            <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
+        </ul>
+    </nav>
+
+    <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+        <i class="fa-solid fa-bars"></i>
+
+    </div>
+
+        </header>
+    </div>
+
+        <!--SECCION INICIO-->
+
+        <section id="inicio" class="inicio">
+            <div class="contenedor-banner">
+                <div class="contenedor-img">
+                    <img src="img/perfil.png" alt="">
+                </div>
+                <h1>ANDRES ESTÉVEZ</h1>
+                <h2>Diseñador Gráfico & Desarrollador Frontend</h2>
+                <div class="redes">
+                    <a href="https://www.facebook.com/davidandres.estevez"target="_blank"><i class="fa-brands fa-square-facebook"></i></a>
+                    <a href="https://www.instagram.com/cromatic_ventas/"target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/andres-estevez/"target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+            </div>
+        </section>
+
+        <!--SECCION SOBRE MI-->
+
+        <section id="sobremi" class="sobremi">
+            <div class="contenido-seccion">
+                
+                <h2>Sobre Mí</h2>
+                <p><span>Hola, soy Andres Estévez.</span>Apasionado por el diseño gráfico con sus sólidas habilidades en el desarrollo de aplicaciones y sitios web.
+                        Gracias a mi formación y experiencia, soy capaz de crear soluciones digitales atractivas y funcionales.</p>
+                        <h1>Destaca. Impacta. Conquista</h1>
+                
+                <div class="fila">
+                    <!--Datos personales-->
+                <div class="col">
+                    <h3>Datos personales</h3>
+                    <ul>
+                        <li>
+                            <strong>Cumpleaños</strong>
+                            08-01-1995
+                        </li>
+                        <li>
+                            <strong>Celular</strong>
+                            0983738769
+                        </li>
+                        <li>
+                            <strong>E-mail</strong>
+                            estevezperezandres@gmail.com
+                        </li>
+                        <li>
+                            <strong>Website</strong>
+                            andresestevez.example.com
+                        </li>
+                        <li>
+                            <strong>Dirección</strong>
+                            Quito-Ecuador
+                        </li>
+                        <li>
+                            <strong>Cargo</strong>
+                            <span>FREELANCE</span>
+                        </li>
+                    </ul>
+                    
+                </div>
+                    <!--Intereses-->
+                    <div class="col">
+                        <h3>Intereses</h3>
+                        <div class="contenedor-intereses">
+                            <div class="intereses">
+                                <i class="fa-brands fa-html5"></i>
+                                <span>HTML-5</span>
+                            </div>
+                            <div class="intereses">
+                                <i class="fa-brands fa-css3-alt"></i>
+                                <span>CSS</span>
+                            </div>
+                            <div class="intereses">
+                                <i class="fa-brands fa-square-js"></i>
+                                <span>JAVASCRIPT</span>
+                            </div>
+                            <div class="intereses">
+                                <i class="fa-brands fa-apple"></i>
+                                <span>MAC OS</span>
+                            </div>
+                            <div class="intereses">
+                                <i class="fa-brands fa-figma"></i>
+                                <span>FIGMA</span>
+                            </div>
+                            <div class="intereses">
+                                <i class="fa-brands fa-python"></i>
+                                <span>PYTHON</span>
+                            </div>
+                            <div class="intereses">
+                                <i class="fa-solid fa-pen-nib"></i>
+                                <span>DISEÑO</span>
+                            </div>
+                            <div class="intereses">
+                                <i class="fa-solid fa-camera"></i>
+                                <span>FOTOGRAFÍA</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button>
+                    <a href="doc/CV.pdf" download="CV Andres Estévez"></a>
+                    Descargar CV <i class="fa-solid fa-download"></i>
+                    <span class="overlay"></span>
+                    
+                </button>
+            </div>
+        </section>
+
+        <!--SECCION SKILLS-->
+
+        <section class="skills" id="skills">
+            <div class="contenido-seccion">
+                <h2>Habilidades</h2>
+                <div class="fila">
+                    <!--Technical skills-->
+                    <div class="col">
+                        <h3>Habilidades Técnicas</h3>
+                        <div class="skills">
+                            <span>Javascript</span>
+                            <div class="barra-skill">
+                                <div class="progreso">
+                                    <span>20%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skills">
+                            <span>HTML & CSS</span>
+                            <div class="barra-skill">
+                                <div class="progreso">
+                                    <span>40%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skills">
+                            <span>Photoshop</span>
+                            <div class="barra-skill">
+                                <div class="progreso">
+                                    <span>70%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skills">
+                            <span>Illustrator</span>
+                            <div class="barra-skill">
+                                <div class="progreso">
+                                    <span>85%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skills">
+                            <span>Office</span>
+                            <div class="barra-skill">
+                                <div class="progreso">
+                                    <span>75%</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Habilidades Profesionales-->
+                    <div class="col">
+                        <h3>Habilidades Profesionales</h3>
+                        <div class="skills">
+                            <span>Comunicación</span>
+                            <div class="barra-skill">
+                                <div class="progreso">
+                                    <span>80%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skills">
+                            <span>Trabajo en equipo</span>
+                            <div class="barra-skill">
+                                <div class="progreso">
+                                    <span>70%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skills">
+                            <span>Creatividad</span>
+                            <div class="barra-skill">
+                                <div class="progreso">
+                                    <span>90%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skills">
+                            <span>Dedicación</span>
+                            <div class="barra-skill">
+                                <div class="progreso">
+                                    <span>100%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skills">
+                            <span>Dinámico</span>
+                            <div class="barra-skill">
+                                <div class="progreso">
+                                    <span>100%</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!--SECCION CURRICULUM-->
+
+        <section id="curriculum" class="curriculum">
+            <div class="contenido-seccion">
+                <h2>Curriculum</h2>
+                <div class="fila">
+                    <div class="col izquierda">
+                        <h3>Educación</h3>
+                        <div class="item izq">
+                            <h4>Publicidad y Diseño Gráfico</h4>
+                            <span class="casa">Instituto Técnologico Superior
+                                Cordillera</span>
+                            <span class="fecha">2018 - 2021</span>
+                            <p>Soy un profesional integral, manejando conceptos técnicos y variadas herramientas de diseño, que se ajustan a los requerimientos de las diferentes plataformas y medios, logrando una comunicación efectiva en sus piezas y productos. </p>
+                                <div class="conectori">
+                                    <div class="circuloi">
+                                        
+                                    </div>
+                                </div>
+                        </div>
+                        <div class="item izq">
+                            <h4>Certificación en pantallas LED</h4>
+                            <span class="casa">DVNM Events</span>
+                            <span class="fecha">2023</span>
+                            <p>Esta certificación concluida satisfactoriamente, me permite realizar: Diagnóstico, Reparación de paneles de pantalla LED, Circuito integrado y Configuración avanzada del software NovaStar.</p>
+                            
+                                <div class="conectori">
+                                    <div class="circuloi">
+                                        
+                                    </div>
+                                </div>
+                        </div>
+                        <div class="item izq">
+                            <h4>Programación y gestión de Data</h4>
+                            <span class="casa">Instituto Tecnológico Universitario Rumiñahui</span>
+                            <span class="fecha">2023 - Actualidad</span>
+                            <p>En lo que corresponde con la carrera de Tecnología Universitaria en Sistemas y Gestión de Data la cual me encuentro cursando, podré desenvolverme principalmente en las áreas de las TIC y de negocio en temas de (Inteligencia de negocio, Marketing) de empresa públicas o privadas.</p>
+                                <div class="conectori">
+                                    <div class="circuloi">
+                                        
+                                    </div>
+                                </div>
+                        </div>
+                    </div>
+
+                    <div class="col derecha">
+                        <h3>Experiencia de trabajo</h3>
+                        <div class="item der">
+                            <h4>Diseñador Gráfico</h4>
+                            <span class="casa">DVNM Store</span>
+                            <span class="fecha">2015 - 2016</span>
+                            <p>Como diseñador especializado en la creación de artes publicitarias para impresión y contenido visual para redes sociales, mi misión es fusionar creatividad y estrategia para destacar la identidad de la marca y captar la atención del público objetivo.</p>
+                                <div class="conectord">
+                                    <div class="circulod">
+                                        
+                                    </div>
+                                </div>
+                        </div>
+                        <div class="item der">
+                            <h4>Diseñador Gráfico</h4>
+                            <span class="casa">Cromatic</span>
+                            <span class="fecha">2015 - Actualidad</span>
+                            <p>Como diseñador especializado en la creación de marcas y en el manejo estratégico de comunidades en línea, mi objetivo es forjar una identidad distintiva y duradera para cada proyecto. Desde el desarrollo inicial de la marca hasta su implementación en las redes sociales, mi enfoque se basa en la combinación de creatividad y estrategia.</p>
+                                <div class="conectord">
+                                    <div class="circulod">
+                                        
+                                    </div>
+                                </div>
+                        </div>
+                        <div class="item der">
+                            <h4>Front Developer</h4>
+                            <span class="casa">Andres Estévez</span>
+                            <span class="fecha">2024</span>
+                            <p>He comenzado el emocionante camino del desarrollo de frontend, explorando las fascinantes posibilidades de crear experiencias web cautivadoras y funcionales. Con cada línea de código, mi objetivo es no solo dominar las herramientas y tecnologías relevantes, sino también cultivar un sentido de creatividad y excelencia en el diseño de interfaces de usuario.</p>
+                                <div class="conectord">
+                                    <div class="circulod">
+                                        
+                                    </div>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--SECCION PORTAFOLIO-->
+
+        <section id="portafolio" class="portafolio">
+            <div class="contenido-seccion">
+                <h2>Portafolio</h2>
+                <div class="galeria">
+                    <div class="proyecto">
+                        <img src="img/p1.jpg" alt="">
+                        <div class="overlay">
+                            <h3>Desarrollo Web</h3>
+                            <p>Frontend</p>
+                        </div>
+                    </div>
+                    <div class="proyecto">
+                        <img src="img/p2.jpg" alt="">
+                        <div class="overlay">
+                            <h3>Posicionamiento de Marca</h3>
+                            <p>Community Manager</p>
+                        </div>
+                    </div>
+                    <div class="proyecto">
+                        <img src="img/p3.jpg" alt="">
+                        <div class="overlay">
+                            <h3>Texto Promocional</h3>
+                            <p>Copywriting</p>
+                        </div>
+                    </div>
+                    <div class="proyecto">
+                        <img src="img/p4.jpg" alt="">
+                        <div class="overlay">
+                            <h3>Gestión de Marca</h3>
+                            <p>Imagen Corporativa</p>
+                        </div>
+                    </div>
+                    <div class="proyecto">
+                        <img src="img/p5.jpg" alt="">
+                        <div class="overlay">
+                            <h3>Desarrollo de Aplicaciones</h3>
+                            <p>Creación de Apps</p>
+                        </div>
+                    </div>
+                    <div class="proyecto">
+                        <img src="img/p6.jpg" alt="">
+                        <div class="overlay">
+                            <h3>Diseño Creativo</h3>
+                            <p>Diseño Gráfico</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--SECCION CONTACTO-->
+
+        <section id="contacto" class="contacto">
+            <div class="contenido-seccion">
+                <h2>Contacto</h2>
+                <div class="fila">
+                    <!--Formulario-->
+                    <div class="col">
+                        <input type="text" placeholder="Tú Nombre">
+                        <input type="text" placeholder="Número telefónico">
+                        <input type="text" placeholder="E-mail">
+                        <input type="text" placeholder="Tema">
+                        <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                        <button>
+                            Enviar mensaje <i class="fa-solid fa-paper-plane"></i>
+                            <span class="overlay"></span>
+                        </button>
+                    </div>
+                    <!--Mapa-->
+                    <div class="col">
+                        <img src="img/ubicacion.png" alt="">
+                        <div class="info">
+                            <ul>
+                                <li>
+                                    <i class="fa-solid fa-location-dot"></i>
+                                    Quito-Ecuador
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-mobile-screen-button"></i>
+                                    Llamanos: 0983738769
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-envelope"></i>
+                                    E-mail: estevezperezandres@gmail.com
+                                </li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--FOOTER-->
+        <footer>
+            <a href="#inicio" class="arriba">
+                <i class="fa-solid fa-angles-up"></i>
+            </a>
+            <div class="redes">
+                <a href="#"><i class="fa-brands fa-square-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-square-twitter"></i></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+        </footer>
+        <script src="scrip.js"></script>
+        </body>
+</html>
